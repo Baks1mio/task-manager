@@ -1,0 +1,41 @@
+.addProject {
+    &__title {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 32px;
+        color: #54afe4;
+    }
+
+    &__back {
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        color: #54afe4;
+        margin-bottom: 40px;
+        max-width: 260px;
+    }
+
+    &__form {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 35px;
+            width: 35px;
+            cursor: pointer;
+        }
+    }
+
+    &__input {
+        height: 15px;
+        width: 300px;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #54afe4;
+        border: none;
+        outline: none;
+        margin-right: 30px;
+    }
+}

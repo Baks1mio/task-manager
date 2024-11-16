@@ -1,0 +1,163 @@
+.projectList {
+    position: relative;
+
+    &__title {
+        margin: 0 0 20px 0;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 32px;
+        color: #54afe4;
+    }
+
+    &__li {
+        list-style-type: none;
+        max-width: 800px;
+        margin-top: 30px;
+    }
+
+    &__item {
+        border: 2px solid #54afe4;
+        border-radius: 10px;
+        padding: 5px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__name {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;
+        color: #54afe4;
+    }
+
+    &__icons {
+        display: flex;
+
+        &_add {
+            width: 80px;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            margin-left: 25px;
+            cursor: pointer;
+        }
+    }
+
+    &__edit-item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+
+        img {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+    }
+
+    &__input {
+        height: 15px;
+        width: 300px;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #54afe4;
+        border: none;
+        outline: none;
+        margin-right: 30px;
+    }
+
+    &__sorting {
+        top: 160px;
+        right: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 50px;
+
+        &-title {
+            color: #54afe4;
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        &_name {
+            display: flex;
+            flex-direction: column;
+            color: #54afe4;
+            font-weight: 700;
+            font-size: 16px;
+
+
+            div {
+                margin-bottom: 20px;
+                text-decoration: underline;
+                cursor: pointer;
+
+            }
+        }
+
+        &_time {
+            display: flex;
+            flex-direction: column;
+            color: #54afe4;
+            font-weight: 700;
+            font-size: 16px;
+
+            div {
+                margin-bottom: 20px;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+
+        &_task {
+            display: flex;
+            flex-direction: column;
+            color: #54afe4;
+            font-weight: 700;
+            font-size: 16px;
+
+            div {
+                margin-bottom: 20px;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__exit {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            margin-bottom: 10px;
+
+            a {
+
+                color: #169af3;
+                font-weight: 700;
+                font-size: 16px;
+            }
+        }
+
+        &-button {
+            padding: 5px;
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            width: 150px;
+            background-color: #54afe4;
+            cursor: pointer;
+        }
+    }
+}
